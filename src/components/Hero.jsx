@@ -1,11 +1,9 @@
-import { useSelector } from "react-redux";
-import { selectData } from "../pages/homeSlice";
 import { Link } from "react-scroll";
 import styled from "styled-components";
 // Icons
 import { Icon } from "@iconify/react";
 // Media
-import Logo from "../images/logo.svg";
+
 import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
@@ -81,24 +79,24 @@ const StyledHero = styled.header`
 `;
 
 export default function Hero() {
-  const { name } = useSelector(selectData);
+  const name = "Amornrat Rattanung"; 
+  const role = "I'm a Developer";
+  const SmallText = styled.h2`
+  font-size: 2.5rem; /* Set font size to smaller */
+`;
 
   return (
     <StyledHero>
       <Container>
         <Row className="align-items-center text-center">
           <Col>
+            <div>
             <h1 className="mb-3 display-3 title">{name}</h1>
+            <SmallText className="mb-3 display-3 title">{role}</SmallText>
+            </div>
             <div className="d-flex align-items-center justify-content-center">
               <SocialLinks />
             </div>
-          </Col>
-          <Col className="d-none d-md-block">
-            <img
-              src={Logo}
-              alt="React Logo"
-              className="w-75 mx-auto hero-img"
-            />
           </Col>
         </Row>
         <Row className="align-items-end down-container">

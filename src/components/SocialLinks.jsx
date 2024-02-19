@@ -25,6 +25,13 @@ export default function SocialLinks() {
       >
         <Icon icon="icomoon-free:github" />
       </a>
+      <a
+        href={`https://www.linkedin.com/in/amornrat-rtn/`}
+        aria-label="Check out my linkedin profile."
+        className="link-icons"
+      >
+        <Icon icon="fa:linkedin-square" />
+      </a>
       {blog && (
         <a href={blog} aria-label="External link" className="link-icons">
           {Blog}

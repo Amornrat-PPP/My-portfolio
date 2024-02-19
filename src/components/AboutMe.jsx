@@ -33,9 +33,9 @@ export default function AboutMe() {
           </Container>
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
-              <Container>
+              <Container className="text-stretch">
                 <p>{bio}</p>
-                {moreInfo && <p>{moreInfo}</p>}
+                {moreInfo && <p className="text-stretch">{moreInfo}</p>}
               </Container>
             </Col>
             <Col className="d-none d-md-block text-center">
