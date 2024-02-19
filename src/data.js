@@ -2,7 +2,7 @@
 import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/sport-logo.jpg";
+import Logo from "./images/sport-app-logo.jpg";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
