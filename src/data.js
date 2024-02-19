@@ -99,7 +99,7 @@ export const filteredProjects = ["sport-app"];
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "sport-app",
+    name: "sport-app-logo",
     image: Logo,
   },
 ];
