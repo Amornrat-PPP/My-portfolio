@@ -1,7 +1,7 @@
 {
-  "name": "github-react-portfolio-template",
-  "homepage": "https://YourUsername.github.io/your-app/",
-  "version": "0.1.0",
+  "name": "my-portfolio",
+  "homepage": "https://amornrat-ppp.github.io/My-portfolio",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@iconify/react": "^4.1.0",
